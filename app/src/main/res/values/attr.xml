@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRockerView">
+        <attr name="control_bg" format="reference" />
+        <attr name="control_rocker" format="reference" />
+        <!--是否重力感应模式-->
+        <attr name="isGravide" format="boolean" />
+        <!--手指离开界面后，是否显示摇杆-->
+        <attr name="isShow" format="boolean" />
+        <!--摇杆初始化，位置是否位于中心-->
+        <attr name="isInitCenter" format="boolean" />
+    </declare-styleable>
+</resources>
